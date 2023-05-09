@@ -64,6 +64,7 @@ Reach out to our Big Omega Team via email - manage.bigomega@gmail.com
 - Clone project
 - Open in any editor of your choice
 - If you want to add/remove code then react code is present under `src/`, which you can edit
+- Run `npm install` to install the required dependencies.
 - Now run `npm run build` to create a loadable build/ folder
 - Now to actually test changes we need to load the extention in browser so go to `chrome://extensions` through browser searchbar
 - Toggle developer mode on top right in order to enable it
@@ -87,7 +88,8 @@ For Windows:
           "move-index": "copy public\\index.html build\\index.html"
         },
 ```
-- Now run `npm run build` to create a loadable build/ folder
+- Now Run `npm install` to install the required dependencies.
+- Run `npm run build` to create a loadable build/ folder
 - Now to actually test changes we need to load the extention in browser so go to `chrome://extentions` through browser searchbar
 - Toggle developer mode on top right in order to enable it
 - Click Load unpacked and choose the `build` folder in root of this project
